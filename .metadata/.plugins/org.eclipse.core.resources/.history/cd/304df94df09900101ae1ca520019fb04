@@ -1,0 +1,13 @@
+package OOPS;
+
+class Student {
+   String collage, id,name,email;
+   static collage = 
+}
+
+public class A002_ClassStudent {
+	public static void main(String[] args) {
+		
+
+	}
+}

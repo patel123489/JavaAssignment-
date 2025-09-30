@@ -1,0 +1,14 @@
+package OOPS;
+
+class Student{
+	String name;
+	String collage;
+
+}
+public class A002_ClassStudent {
+	public static void main(String[] args) {
+		
+		Student s1 = new Student();
+		s1.toWrite();
+	}
+}

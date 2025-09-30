@@ -1,0 +1,10 @@
+package OOPS;
+
+public class A002_ClassStudent {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

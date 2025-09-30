@@ -1,0 +1,21 @@
+package OOPS;
+
+class Student {
+   String collage, id,name,email;
+   String Name = "OM";
+   String Email = "omviralpatel90106@gamil.com";
+   static college = "Tops";
+   String = "101";
+   public void toWrite()
+   {
+	   System.out.println(Name+" ");
+   }
+   
+}
+
+public class A002_ClassStudent {
+	public static void main(String[] args) {
+		
+
+	}
+}

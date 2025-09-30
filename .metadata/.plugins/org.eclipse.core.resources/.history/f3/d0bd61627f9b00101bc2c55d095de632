@@ -1,0 +1,34 @@
+package OOPS;
+
+class method {
+	public void display() {
+		System.out.println("Running Display....");
+	}
+
+	public void add(int a, int b) {
+		System.out.println("Addition is :" + (a + b));
+	}
+
+	public String message() {
+		return "Hello";
+	}
+
+	public int square(int i) {
+		return i * i;
+	}
+}
+
+public class A005_MethodManipulation {
+	public static void main(String[] args) {
+
+		method m1 = new method();
+		m1.display();
+		m1.add(45, 18);
+
+		String s = m1.message();
+		System.out.println(s);
+		System.out.println(m1.message());
+
+		System.out.println(m1.square(18));
+	}
+}

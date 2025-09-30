@@ -1,0 +1,26 @@
+package OOPS;
+
+class student1 {
+	int id;
+	String Name;
+
+	student1(int id, String Name) {
+		this.id = id;
+		this.Name = Name;
+	}
+
+	public void display() {
+		System.out.println(id + " " + Name);
+	}
+}
+
+public class A003_Constructors {
+	public static void main(String[] args) {
+
+		student1 s1 = new student1(1, "OM");
+		s1.display();
+
+		student1 s2 = new student1(2, "Patel");
+		s2.display();
+	}
+}

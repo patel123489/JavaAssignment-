@@ -1,0 +1,32 @@
+package OOPS;
+
+class O
+{
+	O()
+	{
+		System.out.println("Runing O class const....");
+	}
+}
+
+class M
+{
+	M()
+	{
+		System.out.println("Runing M class const....");
+	}
+}
+
+class V
+{
+	V()
+	{
+		System.out.println("Runing V class const....");
+	}
+}
+
+
+public class A007_ConstructionChaining {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,31 @@
+package OOPS;
+
+class A
+{
+	int id = 10;
+	public void display()
+	{
+		System.out.println("Runing Class A Display.....");
+	}
+}
+
+// sub / child / derived
+class B extends A
+{
+	int id = 45;
+	public void sample()
+	{
+		int id =70;
+		System.out.println(id);
+		System.out.println(this.id);
+		System.out.println(super.id);
+	}
+}
+
+public class A006_InheritanceDemo {
+	public static void main(String[] args) {
+		B b1 = new B();
+		b1.display();
+		b1.sample();
+	}
+}

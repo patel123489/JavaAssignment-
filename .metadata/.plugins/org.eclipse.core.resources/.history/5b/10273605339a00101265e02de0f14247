@@ -1,0 +1,33 @@
+package OOPS;
+
+class Student {
+	static int Id = 100;
+	String Name = "OM";
+	String College = "M.K";
+	String email = "omviralpatel";
+	String contact = "9913362111"; 
+	String Address = "London";
+	String hobbies = " Coding "; 
+
+	public void display() {
+		System.out.println("ID      : " + Id);
+		System.out.println("Name    : " + Name);
+		System.out.println("College : " + College);
+		System.out.println("Email   : " + email);
+		System.out.println("Contact : " + contact);
+		System.out.println("Hobbies : " + hobbies);
+	}
+}
+
+public class A002_Student {
+	public static void main(String[] args) {
+
+		Student s1 = new Student();
+		s1.Name = "Om Patel";
+		s1.College = "M.K Gandhi College";
+		s1.email = "omviralpatel90106@gmail.com";
+		s1.contact = "9879066235"; // set contact number
+		s1.hobbies = "Cricket"; // set hobbies
+		s1.display();
+	}
+}

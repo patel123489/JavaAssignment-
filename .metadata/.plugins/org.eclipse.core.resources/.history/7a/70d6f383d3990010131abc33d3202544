@@ -1,0 +1,29 @@
+package Array;
+
+import java.util.Scanner;
+
+public class A006_2Dmatrixmultiplication {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int[][] A = { { 1, 2, 3 }, { 4, 5, 6 } };
+		int[][] B = { { 7, 8, 9 }, {10, 11, 12} };
+
+		// Addition
+		for (int i = 0; i < A.length; i++) {
+		    for (int j = 0; j < A[0].length; j++) {
+		    }
+		}
+
+		// Print result
+		int[][] C = new int[2][3]; // same size as A and B
+		System.out.println("Result of Matrix Addition:");
+		for (int i = 0; i < C.length; i++) {
+		    for (int j = 0; j < C[0].length; j++) {
+		    	 C[i][j] = A[i][j] + B[i][j];
+		        System.out.print(C[i][j] + " ");
+		    }
+		    System.out.println();
+		}
+	}
+}

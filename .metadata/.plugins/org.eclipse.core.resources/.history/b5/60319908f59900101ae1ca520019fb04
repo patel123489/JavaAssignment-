@@ -1,0 +1,26 @@
+package OOPS;
+
+class Student {
+	static int Id = 100;
+	String Name = "OM";
+	String College = "M.K";
+	String email = "omviralpatel";
+
+	public void display() {
+		System.out.println(Id);
+		System.out.println(Name);
+		System.out.println(College);
+		System.out.println(email);
+	}
+}
+
+public class A002_Student {
+	public static void main(String[] args) {
+
+		Student s1 = new Student();
+		s1.Name = "Om Patel";
+		s1.College = "M.K Gandhi";
+		s1.email = "omviralpatel90106@gmail.com";
+		s1.display();
+	}
+}

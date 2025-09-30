@@ -1,0 +1,10 @@
+package OOPS;
+
+public class A004_ObjectCount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

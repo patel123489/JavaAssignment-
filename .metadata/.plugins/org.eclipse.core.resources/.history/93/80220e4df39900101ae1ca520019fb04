@@ -1,0 +1,13 @@
+package OOPS;
+
+class Student {
+	String Name;
+	String College;
+	String Id;
+	String email;
+}
+public class A002_Student {
+	public static void main(String[] args) {
+
+	}
+}
