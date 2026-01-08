@@ -22,7 +22,7 @@
                 </div>
 
                 <div class="card-body">
-                    <form action="reg" method="post">
+                    <form action="login" method="post">
 
                         <!-- Email -->
                         <div class="mb-3">
