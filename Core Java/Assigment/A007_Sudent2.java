@@ -2,7 +2,7 @@ package assignment;
 
 class studentDetali{
 	
-	String name="naitik";
+	String name="Om";
 	int age=22;
 	
 	public void display() {
